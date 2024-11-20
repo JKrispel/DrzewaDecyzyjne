@@ -4,19 +4,18 @@
 #include <iostream>
 
 
-DecisionTreeNode& TestDecision::getBranch()
+std::shared_ptr<DecisionTreeNode> TestDecision::getBranch()
 {   
     int distance;
-    std::cin >> distance;
+    std::cout << "Podaj odleglosc od celu: (debug only)\n";
+    std::cin>>distance;
 
     if (distance < 5) {
         
-        Stop currentDecision;
-        return currentDecision;
+        return std::make_shared<Stop>();
     }
     else {
         
-        Follow currentDecision;
-        return currentDecision;
+        return std::make_shared<Follow>();
     }
 }

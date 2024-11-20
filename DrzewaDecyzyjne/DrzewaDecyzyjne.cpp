@@ -10,14 +10,14 @@
 int main()
 {
     TestDecision rootNode;
-    auto decision = rootNode.makeDecision();
+    DecisionTreeNode& decision = rootNode.makeDecision();
 
-    auto action = dynamic_cast<Action*>(decision.makeDecision());
+    Action* action = dynamic_cast<Action*>(&decision);
     if (action) {
-        std::cout << action->action();
+        std::cout << "Action: " << action->action() << std::endl;
     }
     else {
-        std::cout << "Decision was not an Action.";
+        std::cout << "Error: Decision is not an Action." << std::endl;
     }
 
 }

@@ -1,9 +1,10 @@
 #include "Decision.h"
+#include <memory>
 
 
 DecisionTreeNode& Decision::makeDecision()
 {
-    auto branch = getBranch(); // ?
+    std::shared_ptr<DecisionTreeNode> branch = getBranch();
 
-    return branch.makeDecision();
+    return branch->makeDecision();
 }
