@@ -1,6 +1,6 @@
 #include "Stop.h"
 
-std::string Stop::action()
+std::shared_ptr<DecisionTreeNode> Stop::makeDecision()
 {
-	return std::string("Zatrzymaj sie");
+	return std::make_shared<Stop>(*this);
 }

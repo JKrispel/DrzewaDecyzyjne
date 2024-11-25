@@ -1,12 +1,12 @@
 #pragma once
 #include "DecisionTreeNode.h"
 #include <string>
+#include <memory>
 
 class Action :
     public DecisionTreeNode
 {
 public:
-    virtual std::string action() = 0; // symulacja akcji na potrzeby testowania
-    DecisionTreeNode& makeDecision();
+    std::shared_ptr<DecisionTreeNode> makeDecision() = 0;
 };
 

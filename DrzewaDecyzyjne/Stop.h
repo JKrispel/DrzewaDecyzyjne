@@ -5,6 +5,6 @@
 class Stop :
     public Action
 {
-    std::string action();
+    std::shared_ptr<DecisionTreeNode> makeDecision();
 };
 

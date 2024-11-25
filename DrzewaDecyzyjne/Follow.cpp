@@ -1,6 +1,6 @@
 #include "Follow.h"
 
-std::string Follow::action()
+std::shared_ptr<DecisionTreeNode> Follow::makeDecision()
 {
-    return std::string("Podazaj za celem");
+	return std::make_shared<Follow>(*this);
 }

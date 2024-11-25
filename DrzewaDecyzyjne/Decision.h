@@ -7,6 +7,6 @@ class Decision :
 public:
 
     virtual std::shared_ptr<DecisionTreeNode> getBranch() = 0;
-    virtual DecisionTreeNode& makeDecision();
+    virtual std::shared_ptr<DecisionTreeNode> makeDecision();
 };
 

@@ -30,10 +30,10 @@
     <ClCompile Include="Stop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Follow.cpp">
+    <ClCompile Include="DecisionTreeNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DecisionTreeNode.cpp">
+    <ClCompile Include="Follow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

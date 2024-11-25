@@ -1,8 +1,8 @@
 #pragma once
-
+#include <memory>
 class DecisionTreeNode
 {
 public:
-	virtual DecisionTreeNode& makeDecision() = 0;
+	virtual std::shared_ptr<DecisionTreeNode> makeDecision() = 0;
 };
 
