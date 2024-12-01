@@ -14,6 +14,6 @@ int main()
     // TestDecision zwraca Finalna Decyzje w zaleznosci od dystansu:
     // dystans < 5: Stop, else: Follow 
     TestDecision rootNode;
-    std::shared_ptr<DecisionTreeNode> decision = rootNode.makeDecision();
+    std::unique_ptr<DecisionTreeNode> decision = rootNode.makeDecision();
     std::cout << "Final Decision: " << typeid(*decision).name() << std::endl;
 }

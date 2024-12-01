@@ -5,5 +5,5 @@
 class Follow :
     public FinalDecision
 {
-    std::shared_ptr<DecisionTreeNode> makeDecision();
+    std::unique_ptr<DecisionTreeNode> makeDecision();
 };

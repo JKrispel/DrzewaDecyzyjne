@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-std::shared_ptr<DecisionTreeNode> TestDecision::getBranch()
+std::unique_ptr<DecisionTreeNode> TestDecision::getBranch()
 {   
     int distance;
     std::cout << "Podaj odleglosc od celu: (test only)\n";
@@ -12,10 +12,10 @@ std::shared_ptr<DecisionTreeNode> TestDecision::getBranch()
 
     if (distance < 5) {
         
-        return std::make_shared<Stop>();
+        return std::make_unique<Stop>();
     }
     else {
         
-        return std::make_shared<Follow>();
+        return std::make_unique<Follow>();
     }
 }

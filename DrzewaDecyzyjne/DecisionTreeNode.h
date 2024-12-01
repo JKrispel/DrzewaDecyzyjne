@@ -3,6 +3,6 @@
 class DecisionTreeNode
 {
 public:
-	virtual std::shared_ptr<DecisionTreeNode> makeDecision() = 0;
+	virtual std::unique_ptr<DecisionTreeNode> makeDecision() = 0;
 };
 

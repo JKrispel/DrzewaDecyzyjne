@@ -3,6 +3,6 @@
 class TestDecision :
     public Decision
 {
-    std::shared_ptr<DecisionTreeNode> getBranch();
+    std::unique_ptr<DecisionTreeNode> getBranch();
 };
 

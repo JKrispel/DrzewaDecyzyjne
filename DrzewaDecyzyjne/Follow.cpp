@@ -1,6 +1,6 @@
 #include "Follow.h"
 
-std::shared_ptr<DecisionTreeNode> Follow::makeDecision()
+std::unique_ptr<DecisionTreeNode> Follow::makeDecision()
 {
-	return std::make_shared<Follow>(*this);
+	return std::make_unique<Follow>(*this);
 }
