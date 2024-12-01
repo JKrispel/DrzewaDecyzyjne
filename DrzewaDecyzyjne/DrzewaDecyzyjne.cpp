@@ -1,10 +1,11 @@
 // DrzewaDecyzyjne.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+// TODO sprawdz czy unique_ptr bedzie dzialal
 
 #include <iostream>
 #include <string>
 #include "TestDecision.h"
-#include "Action.h"
+#include "FinalDecision.h"
 
 
 int main()

@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="FinalDecision.cpp" />
     <ClCompile Include="Decision.cpp" />
     <ClCompile Include="DecisionTreeNode.cpp" />
     <ClCompile Include="DrzewaDecyzyjne.cpp" />
@@ -136,7 +136,7 @@
     <ClCompile Include="TestDecision.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Action.h" />
+    <ClInclude Include="FinalDecision.h" />
     <ClInclude Include="Decision.h" />
     <ClInclude Include="DecisionTreeNode.h" />
     <ClInclude Include="Follow.h" />

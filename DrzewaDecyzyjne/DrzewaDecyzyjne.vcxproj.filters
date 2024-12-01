@@ -18,7 +18,7 @@
     <ClCompile Include="DrzewaDecyzyjne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Action.cpp">
+    <ClCompile Include="FinalDecision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Decision.cpp">
@@ -41,7 +41,7 @@
     <ClInclude Include="DecisionTreeNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Action.h">
+    <ClInclude Include="FinalDecision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Decision.h">

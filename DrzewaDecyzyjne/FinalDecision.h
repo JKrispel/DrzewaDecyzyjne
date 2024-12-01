@@ -3,7 +3,7 @@
 #include <string>
 #include <memory>
 
-class Action :
+class FinalDecision :
     public DecisionTreeNode
 {
 public:

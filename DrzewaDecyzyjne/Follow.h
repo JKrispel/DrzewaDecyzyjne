@@ -1,9 +1,9 @@
 #pragma once
-#include "Action.h"
+#include "FinalDecision.h"
 #include <string>
 
 class Follow :
-    public Action
+    public FinalDecision
 {
     std::shared_ptr<DecisionTreeNode> makeDecision();
 };
