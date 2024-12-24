@@ -127,22 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Action.cpp" />
-    <ClCompile Include="ActionManager.cpp" />
-    <ClCompile Include="FinalDecision.cpp" />
-    <ClCompile Include="Decision.cpp" />
-    <ClCompile Include="DecisionTreeNode.cpp" />
-    <ClCompile Include="DrzewaDecyzyjne.cpp" />
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="actionManager.cpp" />
+    <ClCompile Include="finalDecision.cpp" />
+    <ClCompile Include="decision.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Follow.cpp" />
     <ClCompile Include="Stop.cpp" />
     <ClCompile Include="TestDecision.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Action.h" />
-    <ClInclude Include="ActionManager.h" />
-    <ClInclude Include="FinalDecision.h" />
-    <ClInclude Include="Decision.h" />
-    <ClInclude Include="DecisionTreeNode.h" />
+    <ClInclude Include="action.h" />
+    <ClInclude Include="actionManager.h" />
+    <ClInclude Include="finalDecision.h" />
+    <ClInclude Include="decision.h" />
+    <ClInclude Include="decisionTreeNode.h" />
     <ClInclude Include="Follow.h" />
     <ClInclude Include="Stop.h" />
     <ClInclude Include="TestDecision.h" />

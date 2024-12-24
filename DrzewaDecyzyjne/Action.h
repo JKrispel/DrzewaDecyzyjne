@@ -1,6 +1,7 @@
 #pragma once
 class Action
 {
+public:
 	float expiryTime;
 	float priority;
 

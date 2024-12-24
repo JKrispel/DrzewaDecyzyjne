@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DrzewaDecyzyjne.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FinalDecision.cpp">
+    <ClCompile Include="finalDecision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Decision.cpp">
+    <ClCompile Include="decision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestDecision.cpp">
@@ -30,27 +30,24 @@
     <ClCompile Include="Stop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DecisionTreeNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Follow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ActionManager.cpp">
+    <ClCompile Include="actionManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Action.cpp">
+    <ClCompile Include="action.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DecisionTreeNode.h">
+    <ClInclude Include="decisionTreeNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FinalDecision.h">
+    <ClInclude Include="finalDecision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Decision.h">
+    <ClInclude Include="decision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TestDecision.h">
@@ -62,10 +59,10 @@
     <ClInclude Include="Follow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ActionManager.h">
+    <ClInclude Include="actionManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Action.h">
+    <ClInclude Include="action.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
