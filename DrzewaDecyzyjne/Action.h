@@ -1,18 +1,20 @@
-#pragma once
+﻿#pragma once
+#include <memory>
+
 class Action
 {
 public:
 	float expiryTime;
 	float priority;
-
+	bool complete;	// czy akcja została wykonana
 	// konstruktor
-	Action(float priority, float expiryTime = 0.0f)
-		: expiryTime(expiryTime), priority(priority) {
+	Action(float priority, float expiryTime = 10.0f, bool complete = false)
+		: expiryTime(expiryTime), priority(priority), complete(complete) {
 	}
-
+	
+	void execute();
 	bool interrupt();
-	bool canDoBoth(Action& other);
-	bool isComplete();
-	bool operator < (const Action& other) const;
+	bool canDoBoth(const std::unique_ptr<Action>& other); // warunek równoczesnego wykonywania Akcji
+	bool isComplete() const;	// getter dla complete
 };
 

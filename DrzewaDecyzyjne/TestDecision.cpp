@@ -7,7 +7,7 @@
 std::unique_ptr<DecisionTreeNode> TestDecision::getBranch()
 {   
     int distance;
-    std::cout << "Podaj odleglosc od celu: (test only)\n";
+    std::cout << "Podaj odleglosc od celu: (debug only)\n";
     std::cin>>distance;
 
     if (distance < 5) {
