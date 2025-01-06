@@ -7,6 +7,7 @@
 #include "ActionManager.h"
 #include "Action.h"
 
+// TODO dokończ testy, queueSnapshot może okazać się zbędne (iteratory)
 
 int main()
 {
@@ -31,8 +32,6 @@ int main()
         std::cout << "Action with priority: " << manager.queue.top()->priority << std::endl;
         manager.queue.pop();
     }
-    // TODO dodaj przykładowe Akcje dla poniższych testów, napisz testy, queueSnapshot może okazać się zbędne (iteratory)
-    // 
     // TEST 3: rosnący porządek Akcji w active
     std::cout << "TEST 3:" << std::endl;
     manager.scheduleAction(std::move(std::make_unique<Action>(3.0f)));  // najnizszy priorytet
